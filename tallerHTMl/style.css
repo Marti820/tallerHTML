@@ -21,3 +21,33 @@ p {
 .list-group{
     font-size: 20px;
 }
+
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 15px;
+    }
+
+
+    p {
+        font-size: 12px;
+    }
+
+    .images-kora {
+        height: 200px;
+        width: 150px;
+    }
+
+    .img-main {
+        height: 300px;
+        width: 400px;
+    }
+
+    .card {
+        height: auto; 
+        width: auto;
+    }
+    .list-group{
+        width: auto;
+        font-size: 12px;
+    }
+}
